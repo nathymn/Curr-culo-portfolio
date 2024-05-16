@@ -234,17 +234,29 @@ ul .contato {
 
 
 .back-form {
-    background-color: #C1BEC1;
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
 
+.back-form .imagem-fundo{
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+}
+
+.back-form img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
 .form {
     background-color: black;
+    opacity: 0.9;
     color: white;
     padding: 2rem 15rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
     border-radius: 20px;
 }
 
@@ -264,6 +276,11 @@ ul .contato {
 .form h1{
     text-align: center;
     padding: 2rem 0 0 0;
+}
+
+.form p{
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .form .container{
@@ -303,7 +320,7 @@ button:hover{
     cursor: pointer;
 }
 
-a{
+.form a{
     margin: 1rem;
     padding: 1rem;
     text-decoration: none;
@@ -312,7 +329,7 @@ a{
     border-radius: 20px;
 }
 
-a:hover{
+.form a:hover{
     font-size: 1.5rem;
     color: red;
     background-color: white;
