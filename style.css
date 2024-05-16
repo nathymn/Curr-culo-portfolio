@@ -1,4 +1,4 @@
-body{
+body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -10,15 +10,15 @@ body{
     width: 100%;
     background-color: black;
     height: 90px;
-} 
+}
 
-main{
+main {
     margin: 0 auto;
     position: relative;
     display: block;
-} 
+}
 
-.redes-sociais ul{
+.redes-sociais ul {
     margin: 0;
     padding: 1rem 0 0.6rem 10rem;
     display: flex;
@@ -34,20 +34,20 @@ main{
 }
 
 
-.redes-sociais img{
+.redes-sociais img {
     width: 100%;
 }
 
-ul .contato{
+ul .contato {
     width: 94%;
     display: flex;
     margin-top: 0.7rem;
-    align-items: center; 
+    align-items: center;
     height: 100%;
     font-size: 20px;
 }
 
-.contato a{
+.contato a {
     margin-left: 65%;
     text-decoration: none;
     color: black;
@@ -56,19 +56,19 @@ ul .contato{
     padding: 0.1rem 1rem 0.3rem 1rem;
 }
 
-.imagem-fundo{
+.imagem-fundo {
     background-color: black;
     position: absolute;
     width: 100%;
 }
 
-.imagem-fundo img{
+.imagem-fundo img {
     width: 100%;
     opacity: 0.5;
     height: 395px;
 }
 
-.resumo{
+.resumo {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -76,11 +76,11 @@ ul .contato{
     padding: 5rem 0;
 }
 
-.resumo img{
+.resumo img {
     width: 16%;
 }
 
-.resumo .texto{
+.resumo .texto {
     padding: 5rem 1rem 1rem 1rem;
     background-color: #C1BEC1;
     width: 50%;
@@ -91,19 +91,19 @@ ul .contato{
     z-index: 0;
 }
 
-.resumo .imagem-nat{
+.resumo .imagem-nat {
     width: 100%;
     position: relative;
     z-index: 2;
 }
 
-.info-contatos{
+.info-contatos {
     padding: 9rem 0 1rem;
     background-color: black;
     color: white;
 }
 
-.cont-ctt{
+.cont-ctt {
     color: black;
     display: flex;
     align-items: center;
@@ -112,27 +112,27 @@ ul .contato{
     padding: 0;
 }
 
-.cont-ctt li{
+.cont-ctt li {
     margin: 5rem 2rem;
     border-radius: 20px;
     padding: 1rem 2rem;
     list-style: none;
     background-color: #C1BEC1;
     display: flex;
-    align-items: center; 
+    align-items: center;
     width: 275px;
 }
 
-.cont-ctt img{
+.cont-ctt img {
     width: 15%;
 }
 
-.info-contatos div{
+.info-contatos div {
     padding: 1rem 0 1rem 1.5rem;
     font-size: 13px;
 }
 
-.info-contatos h2{
+.info-contatos h2 {
     margin: 0;
 }
 
@@ -140,14 +140,14 @@ ul .contato{
     margin: 0;
 }
 
-.form-aca{
+.form-aca {
     background-color: black;
     color: white;
     padding: 1rem 5rem 8rem;
     text-align: center;
 }
 
-.form-aca ul{
+.form-aca ul {
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -158,7 +158,7 @@ ul .contato{
     position: relative;
     background-color: black;
     padding: 3rem 0;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .hab .overlay {
@@ -167,8 +167,8 @@ ul .contato{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: -1; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 .hab .background-image {
@@ -177,18 +177,18 @@ ul .contato{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./img/1.png); 
-    background-size: cover; 
+    background-image: url(./img/1.png);
+    background-size: cover;
     z-index: 0;
 }
 
 .hab .habilidades-div {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 
-.hab h2{
+.hab h2 {
     margin: 0;
     text-align: center;
     padding: 2rem;
@@ -197,34 +197,34 @@ ul .contato{
     color: white;
 }
 
-.hab p{
+.hab p {
     margin: 0;
 }
 
-.hab ul{
+.hab ul {
     margin: 0;
-    padding: 2rem ;
+    padding: 2rem;
     display: flex;
     justify-content: space-around;
 }
 
-.hab li{
+.hab li {
     list-style: none;
     padding: 1rem;
     background-color: black;
     border-radius: 20px;
-    color: white;   
+    color: white;
 }
 
-.info-hab{
+.info-hab {
     background-color: #C1BEC1;
     color: black;
     padding: 8rem;
     display: flex;
 }
 
-.info-hab div{
-    padding: 2rem ;
+.info-hab div {
+    padding: 2rem;
     width: 50%;
 }
 
@@ -233,13 +233,13 @@ ul .contato{
 
 
 
-.back-form{
+.back-form {
     background-color: #C1BEC1;
     align-items: center;
 }
 
-.form{
+.form {
     background-color: black;
     color: white;
-    
+    padding
 }
