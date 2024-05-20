@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato/formulario/style.css">
+    <title>Contato</title>
+</head>
+<body class="back-form">
+    <section class="imagem-fundo">
+        <img src="./img/1.png" alt="">
+    </section>
+    <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <h1>Entrar em contato</h1>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="tel">Telefone: </label><br>
+            <input type="tel" id="tel" name="tel" required><br>
+            <label for="tel">Mensagem: </label><br>
+            <input style="padding: 3rem 0;" type="text" id="txt" name="text" required><br>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="accessKey" value="093b3c9a-d4f9-452e-a4c1-3868503722e3">     
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obgda.html"> 
+        </form>
+        
+    </div>
+</body>
+</html>
